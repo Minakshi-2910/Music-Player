@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 85%;
+    width: 100%;
+    display: flex;
+    padding: 5vw 10vw;
+    background-color: black;
+}
+#left{
+    height: 100%;
+    width: 45%;
+    background-color: rgb(100, 90, 90);
+    
+background-size: cover;
+background-position: top;
+}
+#right{
+    height: 100%;
+    width: 55%;
+    padding: 0 3vw;
+    
+}
+#right h3{
+    font-size: 40px;
+}
+#all-songs{
+    height: 85%;
+    margin-top: 20px;
+    
+}
+.song-card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid white;
+    padding: 12px 10px;
+    
+
+}
+.song-card:hover{
+    background-color: rgb(55, 53, 53);
+}
+.song-card:nth-last-child(1){
+    border-bottom: 1px solid white;
+}
+.song-card .part1{
+    display: flex;
+    align-items: center;
+    pointer-events: none;
+    
+
+}
+.song-card img{
+    height: 60px;
+    width: 60px;
+    margin-right: 20px;
+    padding: 12px 15px;
+}
+.song-card h2{
+    font-size: 22px;
+
+}
+.song-card h6{
+    font-size: 16px;
+    
+}
+#player{
+    height: 15%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+#player h3{
+    background-color: rgb(66, 59, 59);
+    padding: 10px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#player h3 i{
+    font-size: 24px;
+}
+#player h3:active{
+      scale: 0.9;
+}
